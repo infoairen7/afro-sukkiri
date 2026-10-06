@@ -7,6 +7,8 @@
 - 制作パック v1.1 の企画書・素材（GLB 19点、毛根JSON 8種、カタログ、スコア関数）をそのまま使用。
 - ログイン・広告・課金・オンラインランキング・育成はありません。
 
+**▶ 遊ぶ：https://infoairen7.github.io/afro-sukkiri/** （GitHub Pages。`main` にプッシュすると自動でビルド・公開されます）
+
 ---
 
 ## 1. すぐに遊ぶ・公開する（ビルド済み `dist/`）
@@ -43,6 +45,12 @@ npm run preview    # ビルド結果をローカル確認
 `vite.config.ts` は `base: './'` なので、`dist/` をサブディレクトリ（例：`https://user.github.io/afro-sukkiri/`）に置いてもそのまま動きます。
 
 ## 4. 公開方法
+
+### このリポジトリ（GitHub Pages・自動）
+
+`.github/workflows/pages.yml` が、`main` へのプッシュごとに「依存インストール → `npm test` → `npm run build`（型チェック＋Vite）→ GitHub Pages へ公開」を行います。リポジトリの Settings → Pages の Source は「GitHub Actions」に設定済みです。公開URLは `public/config.json` と `index.html` の `og:url` / `og:image` に設定済みです。
+
+### ほかの場所に置く場合
 
 `dist/` の中身を HTTPS の静的ホスティングに置くだけです。サーバー処理・データベース・APIキーは不要です。
 
