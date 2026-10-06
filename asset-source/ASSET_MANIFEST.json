@@ -1,0 +1,259 @@
+{
+  "version": "1.1",
+  "title": "アフロ、スッキリ。",
+  "status": "Design and prototype asset pack, not a playable game",
+  "characterCount": 5,
+  "glbCount": 19,
+  "files": [
+    {
+      "path": "00_Claudeに渡す指示.md",
+      "bytes": 5699,
+      "sha256": "9a0a6cd29888a36b0dabfdfd2f417ab7b442888e952371769dc51d4787776b5b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4273,
+      "sha256": "50910933bcaf71b9b8911cb0b16727705e34a5b91497fb49016ef7a66e622c72"
+    },
+    {
+      "path": "data/catalog.json",
+      "bytes": 5962,
+      "sha256": "b0d4d4712c5ecf320bac4fead13477590ae913c792548bd66441d7361b5f6242"
+    },
+    {
+      "path": "data/character_parts.json",
+      "bytes": 40494,
+      "sha256": "af2f0072bc2069bf2f0effde4461ab82f52a54a255d19be9e8e910327a739f6b"
+    },
+    {
+      "path": "data/characters.json",
+      "bytes": 3233,
+      "sha256": "5c53721f6f9fbf512357328a4ff31d66c42d2faa6917f6fdc6c6bd913051ab5d"
+    },
+    {
+      "path": "data/hair_classic.json",
+      "bytes": 178286,
+      "sha256": "581d7500f485b6f48f51699ad9eaba6f8b5329c26791a56463e9a0e7a3b50b16"
+    },
+    {
+      "path": "data/hair_flat.json",
+      "bytes": 172275,
+      "sha256": "25875367e72e21bc6e0859921ee9e28debb809f6c3bc1fbca53d014e39057c4d"
+    },
+    {
+      "path": "data/hair_jumbo.json",
+      "bytes": 177411,
+      "sha256": "557c9487aa57626a808f74f32896a5e916e57df5ec2cc9fe57da1b1bf81786fc"
+    },
+    {
+      "path": "data/hair_mohawk.json",
+      "bytes": 177766,
+      "sha256": "8bd6007d9daff2d25f66d15635bd3e8d4a25d97b3112cfb97a7b1f39636efb72"
+    },
+    {
+      "path": "data/hair_rainbow.json",
+      "bytes": 178286,
+      "sha256": "3de54b0dfb17cb595f5aebd3afe97c27647f7f544c53de8a6a4c3bb5222b746d"
+    },
+    {
+      "path": "data/hair_swirl.json",
+      "bytes": 180420,
+      "sha256": "dc612d662da5cdb0e63a8fd5fc0b82d463748f85e893fa57fb414524ee86cff6"
+    },
+    {
+      "path": "data/hair_tight.json",
+      "bytes": 177035,
+      "sha256": "761b35c5cd768bd8ec3ffc2fc40aa0f48b6f410397cf96ab89c8072c9869fff8"
+    },
+    {
+      "path": "data/hair_twins.json",
+      "bytes": 177416,
+      "sha256": "2ee90490831b664317d9310c0bc6e4e13770699e89067a34c46e26a7790ca737"
+    },
+    {
+      "path": "data/model_parts.json",
+      "bytes": 261199,
+      "sha256": "20f938ca589eeaaaf70371c947f1b43470ea5427b331d0ecd2637b8ff1972875"
+    },
+    {
+      "path": "design/01_character_hair.png",
+      "bytes": 2240856,
+      "sha256": "2bb0e7698b35446db540d543d0c66758f71ea35561b21f70d38eed7d0bf8c92d"
+    },
+    {
+      "path": "design/02_clippers.png",
+      "bytes": 1872781,
+      "sha256": "2c3806c6af1aa679a8751cfe9882aab1e1979c55e6ff535c87e2d2e7fd4e56d1"
+    },
+    {
+      "path": "design/03_mobile_ui.png",
+      "bytes": 2017123,
+      "sha256": "4181da72a8d7c3970cca628155405318c33c153f2ab5cf80989273d8bf600825"
+    },
+    {
+      "path": "design/04_glb_preview.png",
+      "bytes": 432882,
+      "sha256": "306c2cd72653e5cce697ae48497463afd57fa35979c007c41dd133dc2a94b48e"
+    },
+    {
+      "path": "design/05_emotion_characters.png",
+      "bytes": 2140632,
+      "sha256": "1dbc348548bfb83b3c361dc44ae78b8951254519609608d89fcfee0194495800"
+    },
+    {
+      "path": "design/06_emotion_glb_preview.png",
+      "bytes": 282629,
+      "sha256": "c111bdef6a6a16150be7bdcae54353cb78a406cd8c363570fa8c5aea130a9a09"
+    },
+    {
+      "path": "docs/01_game_design.pdf",
+      "bytes": 1534638,
+      "sha256": "76a85d6416800ed8dad112502cfcb807f5f5e34247fafd0bac1ebf1d4382fae8"
+    },
+    {
+      "path": "docs/CHARACTERS_V1_1.md",
+      "bytes": 5186,
+      "sha256": "9df0eb33cec85d92913e25db9f5be5b7e26c25ef7dcb312477056d153168c173"
+    },
+    {
+      "path": "docs/CLAUDE_START.md",
+      "bytes": 5699,
+      "sha256": "9a0a6cd29888a36b0dabfdfd2f417ab7b442888e952371769dc51d4787776b5b"
+    },
+    {
+      "path": "docs/EMOTION_IMAGE_PROMPT.md",
+      "bytes": 3011,
+      "sha256": "2357be2b53660b4291800a9baf78e202470f10f66499394e1a3c3c0fc2b01a31"
+    },
+    {
+      "path": "docs/GAME_PLAN.md",
+      "bytes": 23467,
+      "sha256": "d01a154acfbd4aa7c7734e5801e198cafe8a8e614e0ee18d9347a2577ef251d8"
+    },
+    {
+      "path": "docs/IMAGE_PROMPTS.md",
+      "bytes": 5450,
+      "sha256": "7ff758a1ccc76affb16c4cee03e8b308bf9b13a10102feddc30b175f3aa38802"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1682,
+      "sha256": "8bd197c215e1cf2f33b26a16e5cf781f36bdabc419879d74fb5d927d198d0eea"
+    },
+    {
+      "path": "models/characters/anger.glb",
+      "bytes": 24596,
+      "sha256": "3da223350725db9ff2c6c05cbde9a9271c7115d682f112911e46980288fe70e5"
+    },
+    {
+      "path": "models/characters/joy.glb",
+      "bytes": 28228,
+      "sha256": "f4e118146e0f979656fb742a6764481016bfc7a1d67b9a558529da11db635b4e"
+    },
+    {
+      "path": "models/characters/laughter.glb",
+      "bytes": 25940,
+      "sha256": "46a21119fecb3eb92e822e88dd82df4b29b21df75af65a7f0232e2d63f9125e9"
+    },
+    {
+      "path": "models/characters/sadness.glb",
+      "bytes": 22916,
+      "sha256": "ed72c28752394dcbb6b44d066d1089e58fc1905698fbcec55e50f77a2e613d61"
+    },
+    {
+      "path": "models/clippers/detail.glb",
+      "bytes": 18692,
+      "sha256": "0ad113841b88005a7d4006bbc2fa5f5985243be7b0ca65d87664fd8c51589ebc"
+    },
+    {
+      "path": "models/clippers/polish.glb",
+      "bytes": 17504,
+      "sha256": "a9c934e25885ed97ab0a4df1e3fb7fdaf7ee86884d7f5e1d915a8627a89506b3"
+    },
+    {
+      "path": "models/clippers/standard.glb",
+      "bytes": 18952,
+      "sha256": "e55d90e4e90bbd0d05d0bc344dbbc6b0b10a930af0f21ced4e65dcc129d98699"
+    },
+    {
+      "path": "models/clippers/turbo.glb",
+      "bytes": 19196,
+      "sha256": "34153d05224b7316075cf610a2b07e49a395c997943123e681ccf0f35fb0a2b5"
+    },
+    {
+      "path": "models/clippers/vacuum.glb",
+      "bytes": 25808,
+      "sha256": "420b086cb39f5414ffa00d7a953f40c3afd6a42f38543919330b111fc55bf4f4"
+    },
+    {
+      "path": "models/clippers/wide.glb",
+      "bytes": 18904,
+      "sha256": "524245b9524402d1eb6ed1a898006bf6aefdd5568b474e3bbd9e88dbcf942d7d"
+    },
+    {
+      "path": "models/hair/classic.glb",
+      "bytes": 219280,
+      "sha256": "9625019b9f1ef4055c7435c59e5f71c66199300551746a62d11c542510a61467"
+    },
+    {
+      "path": "models/hair/flat.glb",
+      "bytes": 197944,
+      "sha256": "e8d263f8bdabcdf16cb01bfeb957c2885e2bdeafae3573b1981117a8153affe2"
+    },
+    {
+      "path": "models/hair/jumbo.glb",
+      "bytes": 215776,
+      "sha256": "a8f012c0131692d27e781351ac756dfbee4c4b9c740604b89587a4f78271c550"
+    },
+    {
+      "path": "models/hair/mohawk.glb",
+      "bytes": 213504,
+      "sha256": "f0e9ca98573ee7a6eea7f02be85809cddbda9d04d58e413b82724353146bc323"
+    },
+    {
+      "path": "models/hair/rainbow.glb",
+      "bytes": 399104,
+      "sha256": "4c87cb910933b598f8c7957c2f4394d9117f5044d84921eef334540149dfbcec"
+    },
+    {
+      "path": "models/hair/swirl.glb",
+      "bytes": 224532,
+      "sha256": "dd0be26f6ff83aed0ce667b0449417b3fba3d9d1cd2a7280fb7c0d1641eab9d7"
+    },
+    {
+      "path": "models/hair/tight.glb",
+      "bytes": 211808,
+      "sha256": "98e493ae175e438abd08596c4758ab7ec6063aa627b3372d05b5d8b8ffdccdd8"
+    },
+    {
+      "path": "models/hair/twins.glb",
+      "bytes": 213216,
+      "sha256": "af3d5027c227dfe33e80ca4e877de568b079853f0a26ee581625e5dadfeb4bd3"
+    },
+    {
+      "path": "models/ojisan_base.glb",
+      "bytes": 19380,
+      "sha256": "956c8a45f6c02c4b2d2797162cb61eb68f68d21b82416257f7ab5eacee9fab8f"
+    },
+    {
+      "path": "snippets/share-score.mjs",
+      "bytes": 3207,
+      "sha256": "3a6777e6607a73a8680915f9ef703762434b43e1070de32ec7c66f2d96a2cb0f"
+    },
+    {
+      "path": "snippets/ui-tokens.css",
+      "bytes": 1216,
+      "sha256": "11ae6dd5852e254281d1b8a81e0c0aa11d084cf0d8791b8fed4b85d8c06025a6"
+    },
+    {
+      "path": "source/build_characters.py",
+      "bytes": 7880,
+      "sha256": "b2e505a32dfb37c588c9ea90569baebb6a60776d25ae1d0ba4efd6bf67b6616d"
+    },
+    {
+      "path": "source/build_models.py",
+      "bytes": 11486,
+      "sha256": "9622035ba04e82c335e091eb02ac7ec0739e165b5b29867c99bbba35609b088e"
+    }
+  ]
+}

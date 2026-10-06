@@ -1,0 +1,278 @@
+{
+  "version": "1.1",
+  "quality": "prototype",
+  "character": "models/ojisan_base.glb",
+  "hair": [
+    {
+      "id": "classic",
+      "name": "まんまるアフロ",
+      "parSeconds": 45,
+      "glb": "models/hair/classic.glb",
+      "roots": "data/hair_classic.json",
+      "count": 873
+    },
+    {
+      "id": "jumbo",
+      "name": "メガ盛りアフロ",
+      "parSeconds": 65,
+      "glb": "models/hair/jumbo.glb",
+      "roots": "data/hair_jumbo.json",
+      "count": 873
+    },
+    {
+      "id": "tight",
+      "name": "くるくるパーマ",
+      "parSeconds": 35,
+      "glb": "models/hair/tight.glb",
+      "roots": "data/hair_tight.json",
+      "count": 873
+    },
+    {
+      "id": "mohawk",
+      "name": "炎のモヒカン",
+      "parSeconds": 40,
+      "glb": "models/hair/mohawk.glb",
+      "roots": "data/hair_mohawk.json",
+      "count": 873
+    },
+    {
+      "id": "twins",
+      "name": "ツインもふもふ",
+      "parSeconds": 45,
+      "glb": "models/hair/twins.glb",
+      "roots": "data/hair_twins.json",
+      "count": 873
+    },
+    {
+      "id": "swirl",
+      "name": "うずまきヘア",
+      "parSeconds": 50,
+      "glb": "models/hair/swirl.glb",
+      "roots": "data/hair_swirl.json",
+      "count": 873
+    },
+    {
+      "id": "flat",
+      "name": "角刈りタワー",
+      "parSeconds": 45,
+      "glb": "models/hair/flat.glb",
+      "roots": "data/hair_flat.json",
+      "count": 873
+    },
+    {
+      "id": "rainbow",
+      "name": "虹色アフロ",
+      "parSeconds": 45,
+      "glb": "models/hair/rainbow.glb",
+      "roots": "data/hair_rainbow.json",
+      "count": 873
+    }
+  ],
+  "clippers": [
+    {
+      "id": "standard",
+      "name": "スタンダード",
+      "color": "#65D6E8",
+      "radius": 0.16,
+      "cutRate": 1.0,
+      "glb": "models/clippers/standard.glb"
+    },
+    {
+      "id": "wide",
+      "name": "ワイド",
+      "color": "#FFD15C",
+      "radius": 0.25,
+      "cutRate": 0.8,
+      "glb": "models/clippers/wide.glb"
+    },
+    {
+      "id": "turbo",
+      "name": "ターボ",
+      "color": "#FF855E",
+      "radius": 0.16,
+      "cutRate": 1.55,
+      "glb": "models/clippers/turbo.glb"
+    },
+    {
+      "id": "vacuum",
+      "name": "吸引バリカン",
+      "color": "#93D8C6",
+      "radius": 0.16,
+      "cutRate": 0.95,
+      "glb": "models/clippers/vacuum.glb"
+    },
+    {
+      "id": "detail",
+      "name": "キワ剃り",
+      "color": "#183C4A",
+      "radius": 0.09,
+      "cutRate": 1.0,
+      "glb": "models/clippers/detail.glb"
+    },
+    {
+      "id": "polish",
+      "name": "つるピカ",
+      "color": "#B6A0E8",
+      "radius": 0.18,
+      "cutRate": 0.45,
+      "glb": "models/clippers/polish.glb"
+    }
+  ],
+  "characters": [
+    {
+      "id": "base",
+      "name": "いつものおじさん",
+      "emotion": "穏",
+      "glb": "models/ojisan_base.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "joy",
+      "name": "にこ丸",
+      "emotion": "喜",
+      "accent": "#FFD15C",
+      "skin": "#F1BA95",
+      "description": "ふっくらした丸い頬、小さい鼻、細い笑い目。ひげなし。",
+      "glb": "models/characters/joy.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "anger",
+      "name": "むす鉄",
+      "emotion": "怒",
+      "accent": "#FF855E",
+      "skin": "#DEAC84",
+      "description": "広いあご、太い斜め眉、大きな鼻、短い囲みひげ。",
+      "glb": "models/characters/anger.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "sadness",
+      "name": "しょん吉",
+      "emotion": "哀",
+      "accent": "#B6A0E8",
+      "skin": "#E9B997",
+      "description": "長めのあごと鼻、内側が上がった眉、垂れひげ、下がった口。",
+      "glb": "models/characters/sadness.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "laughter",
+      "name": "ゲラ蔵",
+      "emotion": "楽",
+      "accent": "#93D8C6",
+      "skin": "#EFB08C",
+      "description": "大きな耳と頬、開いた笑い口、すき間のある前歯、跳ね上がるひげ。",
+      "glb": "models/characters/laughter.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    }
+  ],
+  "characterCatalog": "data/characters.json"
+}

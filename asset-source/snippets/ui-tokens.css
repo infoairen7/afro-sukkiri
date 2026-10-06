@@ -1,0 +1,19 @@
+:root {
+  --ink:#123b4a; --aqua:#65d6e8; --cream:#fff8ed; --coral:#ff855e;
+  --yellow:#ffd15c; --mint:#93d8c6; --lavender:#b6a0e8;
+  --radius-card:24px; --radius-control:16px; --control-min:44px;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-6:24px;
+  color:var(--ink); background:var(--cream);
+  font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN",system-ui,sans-serif;
+}
+* { box-sizing:border-box; }
+button,a[role="button"] { min-height:var(--control-min); min-width:var(--control-min); }
+button { font:inherit; color:var(--ink); border-radius:var(--radius-control); cursor:pointer; }
+button:focus-visible,a:focus-visible { outline:3px solid var(--ink); outline-offset:3px; }
+.game-shell { height:100dvh; padding-bottom:env(safe-area-inset-bottom); padding-top:env(safe-area-inset-top); }
+.play-canvas { touch-action:none; display:block; }
+.hud-number { font-variant-numeric:tabular-nums; font-weight:700; }
+.primary { background:var(--aqua); color:var(--ink); }
+.x-share { background:var(--ink); color:var(--cream); }
+.selected { outline:3px solid var(--ink); outline-offset:2px; }
+@media (prefers-reduced-motion:reduce) { .decorative-animation { animation:none; transition:none; } }

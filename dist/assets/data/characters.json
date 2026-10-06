@@ -1,0 +1,160 @@
+{
+  "version": "1.1",
+  "defaultCharacter": "base",
+  "characters": [
+    {
+      "id": "base",
+      "name": "いつものおじさん",
+      "emotion": "穏",
+      "glb": "models/ojisan_base.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "joy",
+      "name": "にこ丸",
+      "emotion": "喜",
+      "accent": "#FFD15C",
+      "skin": "#F1BA95",
+      "description": "ふっくらした丸い頬、小さい鼻、細い笑い目。ひげなし。",
+      "glb": "models/characters/joy.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "anger",
+      "name": "むす鉄",
+      "emotion": "怒",
+      "accent": "#FF855E",
+      "skin": "#DEAC84",
+      "description": "広いあご、太い斜め眉、大きな鼻、短い囲みひげ。",
+      "glb": "models/characters/anger.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "sadness",
+      "name": "しょん吉",
+      "emotion": "哀",
+      "accent": "#B6A0E8",
+      "skin": "#E9B997",
+      "description": "長めのあごと鼻、内側が上がった眉、垂れひげ、下がった口。",
+      "glb": "models/characters/sadness.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    },
+    {
+      "id": "laughter",
+      "name": "ゲラ蔵",
+      "emotion": "楽",
+      "accent": "#93D8C6",
+      "skin": "#EFB08C",
+      "description": "大きな耳と頬、開いた笑い口、すき間のある前歯、跳ね上がるひげ。",
+      "glb": "models/characters/laughter.glb",
+      "scalpRadii": [
+        0.78,
+        1,
+        0.78
+      ],
+      "hairTransform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "hairCompatibility": "all-v1",
+      "rigged": false,
+      "animationClips": [],
+      "scoreMultiplier": 1
+    }
+  ]
+}
