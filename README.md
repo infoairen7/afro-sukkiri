@@ -29,7 +29,7 @@ python3 -m http.server -d dist 5173   # Python がある場合
 必要なもの：Node.js **22.18 以上**（推奨：24 LTS）。
 
 ```bash
-npm install        # 初回のみ。package-lock.json が生成されます（→ コミットしてください）
+npm ci             # 初回のみ（package-lock.json どおりに依存を入れる）
 npm run dev        # Vite 開発サーバー（同じLANのスマホからも http://<PCのIP>:5173/ で確認可）
 npm test           # ゲームロジックの自動テスト（Node 標準テストランナー、39件）
 npm run typecheck  # TypeScript 型チェック
@@ -207,12 +207,13 @@ node scripts/e2e/acceptance.mjs            # ブラウザでの受け入れチ�
 ## 9. 確認済み環境と未確認点
 
 - **確認済み**：Linux 上の Headless Chromium（Playwright 1.56／ソフトウェアWebGL＝SwiftShader）。画面サイズ 320×568・360×640・390×844・430×932・844×390（横）・768×1024・1024×768・1366×768。
+- **確認済み**：GitHub Actions（ubuntu-latest・Node 24）で `npm test` 39件合格、型チェック＋Vite 本番ビルド成功、GitHub Pages に公開。公開ページを PC の Chrome（実GPU）で開き、タイトル画面の3D表示とコンソールエラーなしを確認。
 - **未確認（実機が必要）**：iPhone Safari、Android Chrome、PC の Chrome/Edge/Safari 実機での表示・操作感・FPS・音・振動、Xアプリあり／なし・未ログイン時の遷移、iOSでのPNG保存挙動。ソフトウェア描画は実機GPUより大幅に遅いため（約2fps）、**30/60fps の性能目標は未計測**です。
 
 ## 10. 残る制約・既知の課題
 
-- **package-lock.json が未同梱**：制作環境から npm レジストリへの接続がネットワーク許可リストで拒否されたため、Vite の実行とロックファイル生成ができませんでした。`package.json` は全依存を**固定バージョン**（three 0.185.1 / vite 8.3.3 / typescript 6.0.3 / @types/three 0.185.0）で記載しています。初回 `npm install` で生成される `package-lock.json` をコミットしてください。
-  - 同梱の `dist/` は、同じソースを esbuild 0.28.2（`scripts/build-local.mjs`）でバンドルしたものです。three.js は GitHub の r185 リリースタグ（npm の 0.185.1 と同一）から取得。Vite ビルドとは出力ファイル名が異なるだけで、コードは同じです。
+- **package-lock.json について**：制作環境からは npm レジストリに接続できなかったため、ロックファイルは GitHub Actions の初回実行で npm が生成したものを、ワークフローが一度だけ自動コミットしています。`package.json` は全依存を**固定バージョン**（three 0.185.1 / vite 8.3.3 / typescript 6.0.3 / @types/three 0.185.0）で記載しています。
+  - リポジトリ内の `dist/` は、同じソースを esbuild 0.28.2（`scripts/build-local.mjs`）でバンドルしたものです（npm なしで置ける控え）。GitHub Pages に公開されているのは Actions の Vite ビルドです。
 - 同梱GLBは簡易形状のため、デザイン画の質感・造形には及びません（顔はGLBのパーツ構成を活かした改良まで）。表情はモーフではなくパーツの移動・拡縮による簡易表現です。
 - 毛束は「塊の連なり」による近似で、1本1本の毛の物理はありません。
 - 記録は端末内のみ（同期・サーバー検証なし）。オンラインランキングは対象外。
